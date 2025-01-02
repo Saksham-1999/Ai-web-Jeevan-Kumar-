@@ -1,7 +1,6 @@
 import AboutUs from "@/components/site/AboutUs";
 import BackgroundAndExpertise from "@/components/site/Background-and-Expertise";
 import CompanyOverview from "@/components/site/Company-Overview";
-import CompanyOverviewFinal from "@/components/site/CompanyOverview";
 import EconomicCaseForAI from "@/components/site/Economic-Case-For-AI";
 import EmbracingAIResponsibly from "@/components/site/Embracing-AI-Responsibly";
 import GetInTouch from "@/components/site/Get-In-Touch";
@@ -28,7 +27,6 @@ export default function Home() {
     <TransformativePowerOfAI />
     <EconomicCaseForAI />
     <EmbracingAIResponsibly />
-    {/* <CompanyOverviewFinal /> */}
     <GetInTouch />
    </div>
   );

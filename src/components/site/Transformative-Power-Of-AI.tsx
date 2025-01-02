@@ -29,9 +29,7 @@ function TransformativePowerOfAI() {
               Impact on Humanity
             </h2>
             <blockquote className="text-lg italic text-gray-300 border-l-4 border-purple-500 pl-4">
-              According to Sundar Pichai, CEO of Alphabet and Google, AI's
-              impact will surpass that of fire, electricity, and the internal
-              combustion engine.
+              According to Sundar Pichai, CEO of Alphabet and Google, AI&apos;s impact will surpass that of fire, electricity, and the internal combustion engine.
             </blockquote>
           </div>
         </div>
@@ -89,7 +87,7 @@ function TransformativePowerOfAI() {
               <div className="text-4xl font-bold text-purple-600 mb-4">86%</div>
               <p className="text-gray-300">
                 of executives believe implementing AI will significantly enhance
-                their organization's competitive positioning
+                their organization&apos;s competitive positioning
               </p>
             </div>
             <div className="bg-gray-800 rounded-xl p-8 shadow-lg">

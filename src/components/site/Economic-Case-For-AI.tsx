@@ -1,29 +1,30 @@
-import React from 'react'
-import { cn } from '@/lib/utils'
+import React from "react";
+import { cn } from "@/lib/utils";
 
 function EconomicCaseForAI() {
   const stats = [
     {
       title: "Global Economic Impact",
       value: "$13 trillion",
-      description: "Potential contribution to global economy by 2030 (McKinsey)"
+      description:
+        "Potential contribution to global economy by 2030 (McKinsey)",
     },
     {
       title: "AI Investment",
       value: "$33 billion",
-      description: "Global investments in AI startups (2020)"
+      description: "Global investments in AI startups (2020)",
     },
     {
       title: "Automation Potential",
       value: "45%",
-      description: "of current work tasks can be automated with AI"
+      description: "of current work tasks can be automated with AI",
     },
     {
       title: "Productivity Increase",
       value: "40%",
-      description: "Projected productivity boost by 2035 (Accenture)"
-    }
-  ]
+      description: "Projected productivity boost by 2035 (Accenture)",
+    },
+  ];
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -52,7 +53,7 @@ function EconomicCaseForAI() {
               style={{
                 top: `${Math.random() * 100}%`,
                 left: `${Math.random() * 100}%`,
-                animationDelay: `${Math.random() * 5}s`
+                animationDelay: `${Math.random() * 5}s`,
               }}
             />
           ))}
@@ -73,9 +74,7 @@ function EconomicCaseForAI() {
               <p className="text-3xl font-bold mt-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
                 {stat.value}
               </p>
-              <p className="mt-2 text-sm text-gray-400">
-                {stat.description}
-              </p>
+              <p className="mt-2 text-sm text-gray-400">{stat.description}</p>
             </div>
           ))}
         </div>
@@ -85,7 +84,10 @@ function EconomicCaseForAI() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-2xl p-8">
           <blockquote className="text-xl md:text-2xl font-medium text-center">
-            "Organizations that successfully leverage AI will be positioned as industry leaders, capable of innovating and adapting to evolving market landscapes. Companies that fail to adopt AI risk falling behind."
+            &ldquo;Organizations that successfully leverage AI will be
+            positioned as industry leaders, capable of innovating and adapting
+            to evolving market landscapes. Companies that fail to adopt AI risk
+            falling behind.&rdquo;
             <footer className="mt-4 text-sm text-gray-400">
               - Andrew Ng, Stanford Professor and Co-Founder of Coursera
             </footer>
@@ -93,7 +95,7 @@ function EconomicCaseForAI() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default EconomicCaseForAI
+export default EconomicCaseForAI;

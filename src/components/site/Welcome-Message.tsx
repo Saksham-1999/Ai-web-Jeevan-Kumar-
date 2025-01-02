@@ -94,16 +94,13 @@ function WelcomeMessage() {
               >
                 Together, we will unlock endless possibilities, accelerate
                 growth, and embark on a journey of transformation. With our
-                expert guidance and tailored solutions, you'll be equipped to
-                achieve your full potential.
+                expert guidance and tailored solutions, you&apos;ll be equipped
+                to achieve your full potential.
               </motion.p>
 
-              <motion.div
-                variants={itemVariants}
-                className="space-y-3"
-              >
+              <motion.div variants={itemVariants} className="space-y-3">
                 <p className="text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-white to-white/70">
-                  Welcome aboard, and let's shape the future together!
+                  Welcome aboard, and let&apos;s shape the future together!
                 </p>
                 <p className="text-lg font-medium text-purple-400">
                   Code Sapience – Team
